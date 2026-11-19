@@ -1,0 +1,499 @@
+[
+  {
+    "id": "seed-story-0",
+    "kind": "story",
+    "status": "published",
+    "title": "一个真正的开始",
+    "date": "2024-07-28",
+    "category": "思考",
+    "summary": "创始人李上写下创社的初衷：不重复人云亦云的恐慌，用亲身实践为 AI 祛魅。在建校 70 周年之际，经动画学院老师批准，社团获得创建许可，以 AI 视频创作和 AI 音乐创作为主要方向，开始招募第一批核心成员。",
+    "body": "",
+    "author": "",
+    "quote": "新的时代，一个真正的开始。",
+    "url": "https://mp.weixin.qq.com/s/IA7zEWQbuarbiEyc0Ax-7A",
+    "images": [
+      {
+        "src": "/media/begin.jpg",
+        "caption": "《一个真正的开始》文末配图"
+      }
+    ]
+  },
+  {
+    "id": "seed-story-1",
+    "kind": "story",
+    "status": "published",
+    "title": "中国传媒大学AIGC创意社成立相关 Q&A",
+    "date": "2024-08-07",
+    "category": "思考",
+    "summary": "第一期 Q&A，用六个问题回答了社团创立的背景、为什么很多同学选择观望、部门分工、社团宗旨和三个阶段的发展方向。",
+    "body": "",
+    "author": "",
+    "quote": "只有合作起来，给大家一个共创作品的平台，才能更好地激发大家创作的欲望。",
+    "url": "https://mp.weixin.qq.com/s/bHZ2-_w4c6YcnE8jFyxO3Q",
+    "images": []
+  },
+  {
+    "id": "seed-story-2",
+    "kind": "story",
+    "status": "published",
+    "title": "第一期线上讲座预告：《AIGC 工作坊（一）》",
+    "date": "2024-08-19",
+    "category": "活动",
+    "summary": "8 月 20 日晚 20:30 线上开讲，主讲人李上。带大家了解市场上较为成熟的 AI 视频和音频创作模式，展示即梦AI、可灵AI 和音乐生成工具 Suno 的使用方式。",
+    "body": "",
+    "author": "",
+    "quote": "",
+    "url": "https://mp.weixin.qq.com/s/WDGHXmHTL1SNuhe8U-Nhbw",
+    "images": [
+      {
+        "src": "/media/workshop1-poster.jpg",
+        "caption": "AIGC工作坊（一）活动海报"
+      }
+    ]
+  },
+  {
+    "id": "seed-story-3",
+    "kind": "story",
+    "status": "published",
+    "title": "首次线上讲座活动圆满落幕",
+    "date": "2024-08-24",
+    "category": "活动",
+    "summary": "讲座以“AI 音视频工具概览”为题，从北京国际电影节 AIGC 单元的获奖短片讲起，解析转绘流程与生成流程，现场演示即梦、可灵、Suno、Mureka 等工具。《AIGC 工作坊》系列活动也由此正式启动。",
+    "body": "",
+    "author": "",
+    "quote": "AIGC 永远不会颠覆某个艺术创作行业，但是会使用 AIGC 工具的同学，会在未来有更多的优势。",
+    "url": "https://mp.weixin.qq.com/s/OnSOG9oHZ0_aKeRO6fxqrg",
+    "images": [
+      {
+        "src": "/media/workshop1-slide.jpg",
+        "caption": "讲座幻灯片：AIGC工作坊是什么"
+      },
+      {
+        "src": "/media/c_20240824.jpg",
+        "caption": "首次线上讲座封面"
+      }
+    ]
+  },
+  {
+    "id": "seed-story-4",
+    "kind": "story",
+    "status": "published",
+    "title": "多名成员在 2024 大学生 AI 艺术季评选中荣获佳绩",
+    "date": "2024-10-15",
+    "category": "获奖",
+    "summary": "10 月 11 日，社团成员受邀参加以“艺智同构，共创美学”为主题的荣誉盛典。本届艺术季征集到 1200 余件作品，涵盖 70 多个城市、175 所高校。《我的海淀印象》获最佳 AI 交互艺术荣誉，《娱乐虚拟交互数字人》获最佳先锋技术荣誉，《海淀新诗篇》获最佳 AI 专辑荣誉，《高熵室》获 AI 交互艺术单元提名荣誉。",
+    "body": "",
+    "author": "",
+    "quote": "",
+    "url": "https://mp.weixin.qq.com/s/aSCja81u6pqMCixtuZ7L_g",
+    "images": [
+      {
+        "src": "/media/artseason-venue.jpg",
+        "caption": "2024大学生AI艺术季荣誉盛典现场"
+      },
+      {
+        "src": "/media/work-haidian.jpg",
+        "caption": "《我的海淀印象》"
+      },
+      {
+        "src": "/media/work-digitalhuman.jpg",
+        "caption": "《娱乐虚拟交互数字人》"
+      },
+      {
+        "src": "/media/work-entropy.jpg",
+        "caption": "《高熵室》"
+      }
+    ]
+  },
+  {
+    "id": "seed-story-5",
+    "kind": "story",
+    "status": "published",
+    "title": "招新预热｜未来艺术家看这里！",
+    "date": "2024-10-18",
+    "category": "活动",
+    "summary": "社团成立后的第一次招新。用事实说话，去对 AI 能力祛魅；用实践尝试，去探索 AI 能力的边界；用批判思考，去挖掘 AI 能力的潜力。",
+    "body": "",
+    "author": "",
+    "quote": "请与我们先行于世界一步。",
+    "url": "https://mp.weixin.qq.com/s/Vj5KVEZpgsrj-bmOn6F9_w",
+    "images": [
+      {
+        "src": "/media/depts-2024.jpg",
+        "caption": "2024年招新时的部门介绍：活动部、宣传部、创作部、外联部"
+      }
+    ]
+  },
+  {
+    "id": "seed-story-6",
+    "kind": "story",
+    "status": "published",
+    "title": "第一次 AI 制作项目圆满收工：《点亮发展之光》",
+    "date": "2024-10-23",
+    "category": "项目",
+    "summary": "中传 DigiLab 实验室携手英特尔人工智能生成艺术创作实践中心，与人民日报国际部联合推出 2024 年中非合作论坛宣传 PV。社团同学参与 AI 转绘，利用 ComfyUI 工作流重绘了部分镜头，并参与了动画学院绿幕棚的现场拍摄。",
+    "body": "",
+    "author": "",
+    "quote": "",
+    "url": "https://mp.weixin.qq.com/s/73CmyhejdeqJ6jm1jp4Z3g",
+    "images": [
+      {
+        "src": "/media/light-credits.jpg",
+        "caption": "片尾字幕 AI 创作名单"
+      },
+      {
+        "src": "/media/light-comfyui.jpg",
+        "caption": "ComfyUI转绘工作流"
+      },
+      {
+        "src": "/media/light-report.jpg",
+        "caption": "全国党媒信息公共平台官网报道截图"
+      }
+    ]
+  },
+  {
+    "id": "seed-story-7",
+    "kind": "story",
+    "status": "published",
+    "title": "活动预告｜全国大学生 AI 艺术季获奖项目创作分享",
+    "date": "2024-10-26",
+    "category": "活动",
+    "summary": "10 月 27 日 13:00–16:00，48 教 303。邀请艺术季的多位获奖者，讲述作品从构思到实现的全过程。",
+    "body": "",
+    "author": "",
+    "quote": "承 AI 之韵，启智慧之程；聚创意之心，共未来之章。",
+    "url": "https://mp.weixin.qq.com/s/x7Pgsanb1KeHAp6BaZbaFg",
+    "images": [
+      {
+        "src": "/media/c_20241026.jpg",
+        "caption": "获奖项目创作分享活动封面"
+      }
+    ]
+  },
+  {
+    "id": "seed-story-8",
+    "kind": "story",
+    "status": "published",
+    "title": "创新驱动 智绘未来｜获奖项目交流分享会",
+    "date": "2024-10-30",
+    "category": "活动",
+    "summary": "五组获奖同学分享了创作灵感、技术实现路径和应用场景：林楷腾的 AI 数字人、陈果的 AI 实体艺术交互装置、姜正浩的 AI 音乐制作、李上等五位同学的 AI 虚拟交互装置、陈可沅的 AI 实体交互装置。社员们还讨论了技术融合、艺术创作新流程和新兴的 AI 商业模式。",
+    "body": "",
+    "author": "",
+    "quote": "",
+    "url": "https://mp.weixin.qq.com/s/G2DxAaeWqKwvIoQglKRTrg",
+    "images": [
+      {
+        "src": "/media/share-group.jpg",
+        "caption": "分享会结束后的合影"
+      },
+      {
+        "src": "/media/share-1.jpg",
+        "caption": "同学在讲台分享项目"
+      },
+      {
+        "src": "/media/share-2.jpg",
+        "caption": "两位同学在讲台分享项目"
+      },
+      {
+        "src": "/media/share-room.jpg",
+        "caption": "分享会教室现场"
+      }
+    ]
+  },
+  {
+    "id": "seed-story-9",
+    "kind": "story",
+    "status": "published",
+    "title": "AI 工具分享｜AIGC 信息 11 月月报速递",
+    "date": "2024-12-01",
+    "category": "月报",
+    "summary": "第一期月报：刷屏社交媒体的图片生成工具 Recraft 和它的 Frame、Mockup 功能，可灵AI 的 AI 试衣，以及 FLUX.1 Tools、Suno v4 等当月值得留意的工具更新。",
+    "body": "",
+    "author": "",
+    "quote": "",
+    "url": "https://mp.weixin.qq.com/s/zKqU9ViRnMFfhcrIvB6jmA",
+    "images": [
+      {
+        "src": "/media/c_20241201.jpg",
+        "caption": "11月月报封面"
+      }
+    ]
+  },
+  {
+    "id": "seed-story-10",
+    "kind": "story",
+    "status": "published",
+    "title": "“智启创新 谱绘未来”CUC 专场活动总结",
+    "date": "2024-12-13",
+    "category": "合作",
+    "summary": "12 月 7 日，与中传设计思维协会携手，邀请智谱的行业嘉宾来到学校举办工作坊。上半场是郑书亮老师和产品经理王铎的知识分享；下半场同学们自由分组，根据对市场需求的观察设计自己的 AI 产品，并撰写项目计划书。",
+    "body": "",
+    "author": "",
+    "quote": "",
+    "url": "https://mp.weixin.qq.com/s/b39PASX_FC1KrdRH-jbS_A",
+    "images": [
+      {
+        "src": "/media/zhipu-teams.jpg",
+        "caption": "同学们分组讨论AI产品设计"
+      },
+      {
+        "src": "/media/zhipu-talk.jpg",
+        "caption": "嘉宾分享大模型与提示词工程"
+      },
+      {
+        "src": "/media/zhipu-tools.jpg",
+        "caption": "嘉宾介绍文生图与视频大模型工具"
+      },
+      {
+        "src": "/media/zhipu-desk.jpg",
+        "caption": "智谱清言与AIGC创意社的签到台"
+      }
+    ]
+  },
+  {
+    "id": "seed-story-11",
+    "kind": "story",
+    "status": "published",
+    "title": "“可灵AI”导演共创计划高校巡展 · CUC 站",
+    "date": "2024-12-17",
+    "category": "合作",
+    "summary": "12 月 19 日 14:00–16:00，动画与数字艺术学院 323 小报告厅。与快手可灵AI 合作，把中国首个 AIGC 导演共创计划的 9 部电影短片首次带到中传展映，并邀请校内外嘉宾做创作分享与互动交流。",
+    "body": "",
+    "author": "",
+    "quote": "",
+    "url": "https://mp.weixin.qq.com/s/GLbw7RvJC-uPlecemYBHlA",
+    "images": [
+      {
+        "src": "/media/c_20241217.jpg",
+        "caption": "中国首个AIGC导演共创计划主视觉"
+      }
+    ]
+  },
+  {
+    "id": "seed-story-12",
+    "kind": "story",
+    "status": "published",
+    "title": "成员受邀参与“北京动画周 48 小时 AIGC 原创动画挑战赛”并获奖",
+    "date": "2025-10-10",
+    "category": "获奖",
+    "summary": "9 月 26 日至 28 日，北京展览馆 6 号厅，15 支团队用 AIGC 工具进行 48 小时极限创作。社团成员参与了“单调影像小组”和“造梦行者”两支队伍的 AI 动画制作，分别荣获最佳视听表现奖和优秀作品奖，队伍成员获得中国动画学会授予的 AI 动画师证书。",
+    "body": "",
+    "author": "",
+    "quote": "",
+    "url": "https://mp.weixin.qq.com/s/l2oLXl1LnJDRfH7S8Y0Emw",
+    "images": [
+      {
+        "src": "/media/c_20251010.jpg",
+        "caption": "北京动画周48h AIGC原创动画挑战赛主视觉"
+      }
+    ],
+    "long": {
+      "src": "/media/hack48-long.jpg",
+      "caption": "查看喜报长图"
+    }
+  },
+  {
+    "id": "seed-story-13",
+    "kind": "story",
+    "status": "published",
+    "title": "百团摆台｜AI 织梦 · 锦绣山河",
+    "date": "2025-10-11",
+    "category": "活动",
+    "summary": "10 月 12 日百团摆台。现场用准备好的提示词，利用 AI 为有需求的老人处理图片，让老人“去自己的家乡逛逛”；同学们也可以上传自己或家人的照片，看看 AI 中的各地风景。",
+    "body": "",
+    "author": "",
+    "quote": "",
+    "url": "https://mp.weixin.qq.com/s/IXnwCMvjtaC4IkwzzhvgKg",
+    "images": [
+      {
+        "src": "/media/c_20251011.jpg",
+        "caption": "AI织梦·锦绣山河活动封面"
+      }
+    ],
+    "long": {
+      "src": "/media/fair-long.jpg",
+      "caption": "查看活动海报"
+    }
+  },
+  {
+    "id": "seed-story-14",
+    "kind": "story",
+    "status": "published",
+    "title": "霜降特辑｜AI 的秋日狂想：画出诗意，吟唱暖意",
+    "date": "2025-10-23",
+    "category": "特辑",
+    "summary": "让 AI 化身创作者，为霜降节气作画、写诗、定制食谱、挑选歌单，呈上一份「AI 霜降印象」。",
+    "body": "",
+    "author": "",
+    "quote": "科技并非冷冰冰的代码，当 AI 遇见二十四节气，它也能生出无限的创意与浪漫。",
+    "url": "https://mp.weixin.qq.com/s/UfiYH1ZmRMQDMWOSIg34ww",
+    "images": [
+      {
+        "src": "/media/frost-3.jpg",
+        "caption": "AI生成的秋日木屋"
+      },
+      {
+        "src": "/media/frost-2.jpg",
+        "caption": "AI生成的雪后小路"
+      },
+      {
+        "src": "/media/frost-4.jpg",
+        "caption": "AI生成的雪中柿子国画"
+      },
+      {
+        "src": "/media/frost-food.jpg",
+        "caption": "AI生成的山药红枣鸡汤"
+      }
+    ]
+  },
+  {
+    "id": "seed-story-15",
+    "kind": "story",
+    "status": "published",
+    "title": "立冬特辑｜AI 造物：煮一壶暖冬，绘一场初雪",
+    "date": "2025-11-07",
+    "category": "特辑",
+    "summary": "AI 营养师的立冬食方、三种风格的初雪画面（国风古韵、科幻畅想、动漫治愈），以及 AI 笔尖下的三行诗。",
+    "body": "",
+    "author": "",
+    "quote": "",
+    "url": "https://mp.weixin.qq.com/s/2W0EFH1CEnPbCoYdIi8INQ",
+    "images": [
+      {
+        "src": "/media/winter-1.jpg",
+        "caption": "国风古韵：窗前煮茶"
+      },
+      {
+        "src": "/media/winter-2.jpg",
+        "caption": "科幻畅想：冰封城市的能量塔"
+      },
+      {
+        "src": "/media/winter-3.jpg",
+        "caption": "动漫治愈：窗边看雪"
+      }
+    ]
+  },
+  {
+    "id": "seed-story-16",
+    "kind": "story",
+    "status": "published",
+    "title": "AIGC创意社 × 小明太极 AI 漫改大赛启动",
+    "date": "2025-11-11",
+    "category": "合作",
+    "summary": "小明太极携手可灵AI（技术支持）、快手（流量扶持）开启首届 AI 漫改大赛，八大经典 IP 开放改编，设十万奖金池与签约机会。通过社团渠道报名的参赛队伍，可获得企业现场学习机会，了解 AI 漫剧的创作流程。",
+    "body": "",
+    "author": "",
+    "quote": "",
+    "url": "https://mp.weixin.qq.com/s/55Sv7WmDedEuaWdLbwchvg",
+    "images": [
+      {
+        "src": "/media/c_20251111.jpg",
+        "caption": "首届小明太极AI漫改大赛主视觉"
+      }
+    ]
+  },
+  {
+    "id": "seed-story-17",
+    "kind": "story",
+    "status": "published",
+    "title": "华硕 × 自科 × AI社｜AIGC 创意大赛预告",
+    "date": "2026-05-11",
+    "category": "合作",
+    "summary": "5 月 13 日 14:00–17:00，48 教 306。华硕联合自然科学社、AIGC创意社推出 AIGC 创意活动：两位嘉宾分享、ProArt 创作本实机体验、现场主题创作与作品点评，会后还有华硕校园远程实习面试。",
+    "body": "",
+    "author": "",
+    "quote": "",
+    "url": "https://mp.weixin.qq.com/s/Dvv2K5SPmZUPpIq2HGzIVg",
+    "images": [
+      {
+        "src": "/media/c_20260511.jpg",
+        "caption": "华硕ProArt校园公开课主视觉"
+      }
+    ]
+  },
+  {
+    "id": "seed-story-18",
+    "kind": "story",
+    "status": "published",
+    "title": "活动回顾｜算力赋能灵感，跨界共创未来",
+    "date": "2026-05-25",
+    "category": "活动",
+    "summary": "「2026 华硕校园公开课 ProArt 专场」全国首站在中传落幕，由 AIGC创意社、自然科学社联合主办。华硕产品经理李振涛拆解创作中的硬件痛点，凹凸镜DOC 联合创始人张劳动从影展评委视角分享青年创作者的成长心得，同学们分组上手多款 AIGC 工具现场创作。",
+    "body": "",
+    "author": "",
+    "quote": "别怕新东西，去驾驭它！",
+    "url": "https://mp.weixin.qq.com/s/jRA_TFZe9Qh4_xGb1GbG8g",
+    "images": [
+      {
+        "src": "/media/asus-group.jpg",
+        "caption": "公开课结束后的全体合影"
+      },
+      {
+        "src": "/media/asus-hall.jpg",
+        "caption": "公开课现场"
+      },
+      {
+        "src": "/media/asus-talk.jpg",
+        "caption": "张劳动老师分享"
+      },
+      {
+        "src": "/media/asus-hands.jpg",
+        "caption": "同学上手体验创作本"
+      }
+    ]
+  },
+  {
+    "id": "seed-story-19",
+    "kind": "story",
+    "status": "published",
+    "title": "iCAN AI 工作坊来啦！",
+    "date": "2026-06-11",
+    "category": "合作",
+    "summary": "iCAN × NexAI school × 快手二次元联合举办。6 月 17 日 14:00–17:00，中国传媒大学艺术传播大楼六层，沉浸式 3 小时，从零到一落地一件专属 AIGC 成品。",
+    "body": "",
+    "author": "",
+    "quote": "",
+    "url": "https://mp.weixin.qq.com/s/s5XZ9BI5QaiIeAI59vJjLg",
+    "images": [
+      {
+        "src": "/media/c_20260611.jpg",
+        "caption": "快手动画次世代AI工作坊主视觉"
+      }
+    ],
+    "long": {
+      "src": "/media/ican-long.jpg",
+      "caption": "查看活动长图"
+    }
+  },
+  {
+    "id": "seed-story-20",
+    "kind": "story",
+    "status": "published",
+    "title": "2026 年 10 月 AIGC 新闻精选",
+    "date": "2026-11-04",
+    "category": "月报",
+    "summary": "这个月值得记住的 10 件事：可灵 4.0、即梦短剧工作室、Seedance 2.5、Genie 4……10 月的两个关键词，一是「可控」，都在解决“AI 不听话”的老问题；二是「成体系」，单点生成工具开始被全流程产品取代。",
+    "body": "",
+    "author": "",
+    "quote": "",
+    "url": "https://mp.weixin.qq.com/s/O2FiCI_kmvor6OlhnePmwA",
+    "images": [
+      {
+        "src": "/media/c_20261104.jpg",
+        "caption": "2026年10月AIGC新闻精选封面"
+      }
+    ]
+  },
+  {
+    "id": "about-main",
+    "kind": "about",
+    "status": "published",
+    "title": "社团简介",
+    "date": "2026-11-13",
+    "category": "关于我们",
+    "summary": "中国传媒大学“AIGC创意社”（AIGC Design Club，简称 AIGCDC），2024 年 9 月在建校 70 周年之际成立，由动画与数字艺术学院负责主导。我们带大家了解和学习市场上新兴的各种 AIGC 工具，邀请行业专家与前沿创作者一起讨论，为对 AI 感兴趣、或对 AI 时代感到迷茫的同学提供一盏明灯，搭建一个互相学习、共同创作的平台。",
+    "body": "",
+    "images": []
+  }
+]
