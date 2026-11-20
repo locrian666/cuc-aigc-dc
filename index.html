@@ -323,6 +323,21 @@ button.chip.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 .join h3{font-size:clamp(26px,3.2vw,44px);font-weight:500;letter-spacing:-.06em;line-height:1.15}
 .join h3 em{font-style:normal;color:var(--red)}
 .join p{margin-top:14px;max-width:520px;font-size:14px;line-height:1.85;opacity:.78}
+/* ---------- 联系我们 / 个人信息 ---------- */
+.contact-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.contact-card{position:relative;display:flex;flex-direction:column;gap:14px;padding:clamp(22px,2.4vw,32px);border:1px solid rgba(21,21,16,.16);border-radius:30px 8px 30px 8px;background:rgba(250,250,247,.72);overflow:hidden}
+.contact-card:nth-child(2){border-radius:8px 30px 8px 30px}
+.contact-card::before{content:"";position:absolute;width:150px;height:150px;right:-50px;top:-60px;border:1px solid rgba(237,0,33,.2);border-radius:50%}
+.contact-label{font:400 13px/1 Antonio,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--red)}
+.contact-value{font-size:clamp(22px,2.3vw,34px);font-weight:500;letter-spacing:-.04em;line-height:1.15;word-break:break-all}
+.contact-note{font-size:13px;line-height:1.7;color:#5f5f5b}
+.contact-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto;padding-top:6px}
+.contact-actions a,.contact-actions button{display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border:1px solid rgba(21,21,16,.22);border-radius:99px;background:#fff;font:inherit;font-size:12.5px;font-weight:500;letter-spacing:.03em;color:var(--ink);cursor:pointer;transition:color .2s,border-color .2s,background .2s}
+.contact-actions a:hover,.contact-actions button:hover{color:var(--red);border-color:var(--red)}
+.contact-actions .primary{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.contact-actions .primary:hover{background:var(--red);border-color:var(--red);color:#fff}
+.contact-actions .done{background:var(--red);border-color:var(--red);color:#fff}
+.profile-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
 /* stories */
 .tl-tools{position:sticky;top:57px;z-index:2;display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:14px 0;background:linear-gradient(rgba(255,255,255,.94) 70%,rgba(255,255,255,0))}
 .tl-tools .gap{flex:1}
@@ -379,6 +394,7 @@ button.chip.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
   .note-fig{position:static}
   .aim{padding-right:0}
   .join{grid-template-columns:minmax(0,1fr);border-radius:28px 10px 28px 10px}
+  .contact-cards{grid-template-columns:minmax(0,1fr)}
   .tl-tools{top:51px}
   .tl-year{grid-template-columns:minmax(0,1fr);gap:0}
   .tl-year>h3{position:static;font-size:56px;margin-bottom:14px}
@@ -664,6 +680,56 @@ button.chip.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
         <div class="poem"><h5>《冬藏》</h5><p>河流放缓了脚步，<br>将喧哗沉淀为冰下的暗涌，<br>等待下一个春天的广播。</p></div>
       </div>
       <p class="fine">文案：DeepSeek　图片：即梦AI　编辑：刘诗钰　审核：姜正浩　·　<a class="src" style="margin:0" href="https://mp.weixin.qq.com/s/UfiYH1ZmRMQDMWOSIg34ww" target="_blank" rel="noopener">霜降特辑 ↗</a>　<a class="src" style="margin:0" href="https://mp.weixin.qq.com/s/2W0EFH1CEnPbCoYdIi8INQ" target="_blank" rel="noopener">立冬特辑 ↗</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 联系我们 / 个人信息 ================= -->
+<section class="room" id="room-contact" aria-label="联系我们" aria-hidden="true">
+  <div class="room-bar">
+    <button class="room-btn" type="button" data-room-back>← 返回</button>
+    <span class="portal-kicker">Contact / 联系我们</span>
+    <button class="room-btn" type="button" data-room-home>返回首页 ✕</button>
+  </div>
+  <div class="room-wrap">
+    <div class="room-hero">
+      <span class="room-no">Contact — Founder</span>
+      <h2>你好，<br>我是<em>李上</em>。</h2>
+      <p class="room-lead">Locrian，中国传媒大学 AIGC 创意社创始人。想合作、交流 AI 创作，或者想加入社团，都可以直接联系我。</p>
+      <div class="profile-tags"><span class="chip">AIGC 创意社创始人</span><span class="chip">AI 视频</span><span class="chip">AI 音乐</span><span class="chip">VibeCoding</span></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-head"><span>A</span><h3>联系方式</h3><small>Get in touch</small></div>
+      <div class="contact-cards">
+        <div class="contact-card">
+          <span class="contact-label">Email · 邮箱</span>
+          <span class="contact-value">locrian0314@163.com</span>
+          <p class="contact-note">合作、约稿、活动邀请，邮件里写清楚来意，我会尽快回复。</p>
+          <div class="contact-actions">
+            <a class="primary" href="mailto:locrian0314@163.com">写邮件 ↗</a>
+            <button type="button" data-copy="locrian0314@163.com">复制邮箱</button>
+          </div>
+        </div>
+        <div class="contact-card">
+          <span class="contact-label">WeChat · 微信</span>
+          <span class="contact-value">locrian0314</span>
+          <p class="contact-note">添加时请备注“姓名 + 来意”，方便我通过。</p>
+          <div class="contact-actions">
+            <button class="primary" type="button" data-copy="locrian0314">复制微信号</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec">
+      <div class="join">
+        <img src="media/qr-official.png" alt="AIGC创意社 微信公众号二维码" loading="lazy">
+        <div>
+          <h3>关注社团<em>公众号</em>。</h3>
+          <p>微信扫码关注“AIGC创意社”，活动预告、招新信息和作品都会第一时间在那里发布。</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -1178,7 +1244,7 @@ tlTools.addEventListener('click',e=>{
   timeline.querySelectorAll('.tl-year').forEach(y=>{y.hidden=!y.querySelector('.story:not([hidden])')});
 });
 
-const rooms={about:document.getElementById('room-about'),story:document.getElementById('room-story'),gallery:document.getElementById('room-gallery')};
+const rooms={about:document.getElementById('room-about'),story:document.getElementById('room-story'),gallery:document.getElementById('room-gallery'),contact:document.getElementById('room-contact')};
 let currentRoom=null,roomFromHome=false;
 const openRoom=(name,anchor)=>{
   const room=rooms[name];if(!room)return;
@@ -1206,11 +1272,18 @@ const closeRoom=toHome=>{
 };
 document.querySelectorAll('.entry').forEach(entry=>entry.addEventListener('click',()=>openRoom(entry.dataset.entry)));
 document.querySelectorAll('[data-room-back]').forEach(b=>b.addEventListener('click',()=>{
+  if(currentRoom===rooms.contact){closeRoom(roomFromHome);return}
   if(roomFromHome){roomFromHome=false;openPortal()}
   closeRoom(false);
 }));
 document.querySelectorAll('[data-room-home]').forEach(b=>b.addEventListener('click',()=>closeRoom(true)));
-document.getElementById('contact').addEventListener('click',e=>{e.preventDefault();openRoom('about','#join')});
+document.getElementById('contact').addEventListener('click',e=>{e.preventDefault();openRoom('contact')});
+document.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',async()=>{
+  const text=b.dataset.copy,label=b.dataset.label||(b.dataset.label=b.textContent);
+  try{await navigator.clipboard.writeText(text)}catch(err){const t=document.createElement('textarea');t.value=text;t.style.cssText='position:fixed;opacity:0';document.body.appendChild(t);t.select();try{document.execCommand('copy')}catch(e2){}t.remove()}
+  b.textContent='已复制 ✓';b.classList.add('done');
+  clearTimeout(b._t);b._t=setTimeout(()=>{b.textContent=label;b.classList.remove('done')},1600);
+}));
 // Keep page scrolling inside a room from also driving the valley camera.
 Object.values(rooms).forEach(room=>['wheel','touchmove'].forEach(type=>room.addEventListener(type,e=>e.stopPropagation(),{passive:true})));
 
