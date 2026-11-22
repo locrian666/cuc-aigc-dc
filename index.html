@@ -338,6 +338,31 @@ button.chip.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 .contact-actions .primary{background:var(--ink);border-color:var(--ink);color:var(--paper)}
 .contact-actions .primary:hover{background:var(--red);border-color:var(--red);color:#fff}
 .contact-actions .done{background:var(--red);border-color:var(--red);color:#fff}
+.msg-card{position:relative;margin-bottom:14px;padding:clamp(22px,2.4vw,34px);border:1px solid rgba(21,21,16,.16);border-radius:30px 8px 30px 8px;background:rgba(250,250,247,.72)}
+.msg-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:6px 18px;margin-bottom:18px}
+.msg-head h4{margin:0;font-size:clamp(20px,2vw,28px);font-weight:500;letter-spacing:-.03em}
+.msg-head p{margin:0;font-size:13px;color:#5f5f5b}
+.msg-types{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px;padding:0;border:0}
+.msg-types legend{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.msg-types label{cursor:pointer}
+.msg-types input{position:absolute;opacity:0;pointer-events:none}
+.msg-types span{display:inline-block;padding:8px 15px;border:1px solid rgba(21,21,16,.22);border-radius:99px;background:#fff;font-size:12.5px;font-weight:500;transition:.2s}
+.msg-types input:checked+span{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.msg-types input:focus-visible+span{outline:2px solid var(--red);outline-offset:2px}
+.msg-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-bottom:12px}
+.msg-card input[type=text],.msg-card textarea{display:block;width:100%;box-sizing:border-box;padding:13px 15px;border:1px solid rgba(21,21,16,.18);border-radius:14px;background:#fff;font:inherit;font-size:14.5px;color:var(--ink);outline:none;transition:border-color .2s,box-shadow .2s}
+.msg-card textarea{min-height:130px;resize:vertical;line-height:1.75}
+.msg-card input[type=text]:focus,.msg-card textarea:focus{border-color:var(--red);box-shadow:0 0 0 3px rgba(237,0,33,.08)}
+.msg-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.msg-foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;margin-top:14px}
+.msg-status{font-size:13px;color:#5f5f5b;min-height:1em}
+.msg-status.err{color:var(--red)}
+.msg-send{padding:11px 22px;border:1px solid var(--ink);border-radius:99px;background:var(--ink);color:var(--paper);font:inherit;font-size:13px;font-weight:500;letter-spacing:.04em;cursor:pointer;transition:.2s}
+.msg-send:hover{background:var(--red);border-color:var(--red);color:#fff}
+.msg-send:disabled{opacity:.5;cursor:wait}
+.msg-done{text-align:center;padding:26px 0 10px}
+.msg-done strong{display:block;font-size:clamp(22px,2.2vw,30px);font-weight:500;letter-spacing:-.03em;margin-bottom:8px}
+.msg-done p{margin:0 0 16px;font-size:13.5px;color:#5f5f5b}
 /* stories */
 .tl-tools{position:sticky;top:57px;z-index:2;display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:14px 0;background:linear-gradient(rgba(255,255,255,.94) 70%,rgba(255,255,255,0))}
 .tl-tools .gap{flex:1}
@@ -395,6 +420,7 @@ button.chip.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
   .aim{padding-right:0}
   .join{grid-template-columns:minmax(0,1fr);border-radius:28px 10px 28px 10px}
   .contact-cards{grid-template-columns:minmax(0,1fr)}
+  .msg-row{grid-template-columns:minmax(0,1fr)}
   .tl-tools{top:51px}
   .tl-year{grid-template-columns:minmax(0,1fr);gap:0}
   .tl-year>h3{position:static;font-size:56px;margin-bottom:14px}
@@ -578,6 +604,25 @@ button.chip.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
           </div>
         </div>
       </div>
+      <form class="msg-card" id="msgForm" novalidate>
+        <div class="msg-head"><h4>给我们留言</h4><p>合作、约稿、加入社团，留下联系方式，我们会尽快回复你。</p></div>
+        <div class="msg-body">
+          <fieldset class="msg-types"><legend>留言类型</legend>
+            <label><input type="radio" name="type" value="合作" checked><span>合作</span></label>
+            <label><input type="radio" name="type" value="加入社团"><span>加入社团</span></label>
+            <label><input type="radio" name="type" value="约稿 / 活动"><span>约稿 / 活动</span></label>
+            <label><input type="radio" name="type" value="其他"><span>其他</span></label>
+          </fieldset>
+          <div class="msg-row">
+            <input type="text" name="name" maxlength="60" required placeholder="你的称呼 / 单位" aria-label="你的称呼或单位" autocomplete="name">
+            <input type="text" name="contact" maxlength="120" required placeholder="联系方式（微信 / 邮箱 / 手机）" aria-label="联系方式">
+          </div>
+          <textarea name="content" maxlength="2000" required placeholder="想和我们聊点什么？简单写写来意吧。" aria-label="留言内容"></textarea>
+          <div class="msg-hp" aria-hidden="true"><input type="text" name="website" tabindex="-1" autocomplete="off"></div>
+          <div class="msg-foot"><span class="msg-status" role="status" aria-live="polite"></span><button class="msg-send" type="submit">发送留言 →</button></div>
+        </div>
+        <div class="msg-done" hidden><strong>留言已收到 ✓</strong><p>谢谢你的来信，我们看到后会通过你留下的联系方式回复。</p><button class="msg-send" type="button" data-msg-again>再写一条</button></div>
+      </form>
       <div class="join">
         <img src="media/qr-official.png" alt="AIGC创意社 微信公众号二维码" loading="lazy">
         <div>
@@ -1253,6 +1298,13 @@ document.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',a
   b.textContent='已复制 ✓';b.classList.add('done');
   clearTimeout(b._t);b._t=setTimeout(()=>{b.textContent=label;b.classList.remove('done')},1600);
 }));
+(()=>{const f=document.getElementById('msgForm');if(!f)return;const st=f.querySelector('.msg-status'),btn=f.querySelector('.msg-send[type=submit]'),body=f.querySelector('.msg-body'),done=f.querySelector('.msg-done');
+['keydown','keyup','keypress'].forEach(t=>f.addEventListener(t,e=>e.stopPropagation()));
+const say=(t,err)=>{st.textContent=t;st.classList.toggle('err',!!err)};
+f.addEventListener('submit',async e=>{e.preventDefault();const d=Object.fromEntries(new FormData(f));for(const k of ['name','contact','content'])d[k]=(d[k]||'').trim();
+if(!d.name){say('请留下你的称呼',1);f.elements.name.focus();return}if(!d.contact){say('请留下联系方式，方便我们回复你',1);f.elements.contact.focus();return}if(d.content.length<5){say('留言内容至少写 5 个字',1);f.elements.content.focus();return}
+btn.disabled=true;say('正在发送…');try{const r=await fetch('/api/messages',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)});const j=await r.json().catch(()=>({}));if(!r.ok)throw Error(j.error||'发送失败，请稍后再试');f.reset();say('');body.hidden=true;done.hidden=false}catch(err){say(err.message||'发送失败，请稍后再试，或直接发邮件联系',1)}finally{btn.disabled=false}});
+f.querySelector('[data-msg-again]').addEventListener('click',()=>{done.hidden=true;body.hidden=false;f.elements.name.focus()});})();
 // Keep page scrolling inside a room from also driving the valley camera.
 Object.values(rooms).forEach(room=>['wheel','touchmove'].forEach(type=>room.addEventListener(type,e=>e.stopPropagation(),{passive:true})));
 
