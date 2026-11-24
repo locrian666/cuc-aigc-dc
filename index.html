@@ -330,10 +330,15 @@ button.chip.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 .contact-card:nth-child(2){border-radius:8px 30px 8px 30px}
 .contact-card::before{content:"";position:absolute;width:150px;height:150px;right:-50px;top:-60px;border:1px solid rgba(237,0,33,.2);border-radius:50%}
 .contact-label{font:400 13px/1 Antonio,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--red)}
-.contact-value{font-size:clamp(22px,2.3vw,34px);font-weight:500;letter-spacing:-.04em;line-height:1.15;word-break:break-all}
-.contact-note{font-size:13px;line-height:1.7;color:#5f5f5b}
-.contact-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto;padding-top:6px}
-.contact-actions a,.contact-actions button{display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border:1px solid rgba(21,21,16,.22);border-radius:99px;background:#fff;font:inherit;font-size:12.5px;font-weight:500;letter-spacing:.03em;color:var(--ink);cursor:pointer;transition:color .2s,border-color .2s,background .2s}
+.contact-name{font-size:clamp(26px,2.6vw,38px);font-weight:500;letter-spacing:-.04em;line-height:1.1}
+.contact-name small{font-size:.5em;font-weight:400;letter-spacing:0;color:#77776f;margin-left:6px}
+.contact-lines{list-style:none;margin:4px 0 0;padding:0;display:flex;flex-direction:column}
+.contact-lines li{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:6px 14px;padding:13px 0;border-top:1px solid rgba(21,21,16,.1)}
+.contact-key{font-size:12px;color:#77776f;letter-spacing:.08em}
+.contact-val{font-size:clamp(15px,1.25vw,18px);font-weight:500;letter-spacing:-.01em;word-break:break-all;line-height:1.35}
+.contact-tip{font-size:13px;line-height:1.7;color:#5f5f5b;margin:0 0 14px}
+.contact-actions{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end}
+.contact-actions a,.contact-actions button{display:inline-flex;align-items:center;gap:6px;padding:7px 13px;border:1px solid rgba(21,21,16,.22);border-radius:99px;background:#fff;font:inherit;font-size:12px;font-weight:500;letter-spacing:.03em;color:var(--ink);cursor:pointer;white-space:nowrap;transition:color .2s,border-color .2s,background .2s}
 .contact-actions a:hover,.contact-actions button:hover{color:var(--red);border-color:var(--red)}
 .contact-actions .primary{background:var(--ink);border-color:var(--ink);color:var(--paper)}
 .contact-actions .primary:hover{background:var(--red);border-color:var(--red);color:#fff}
@@ -420,6 +425,8 @@ button.chip.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
   .aim{padding-right:0}
   .join{grid-template-columns:minmax(0,1fr);border-radius:28px 10px 28px 10px}
   .contact-cards{grid-template-columns:minmax(0,1fr)}
+  .contact-lines li{grid-template-columns:auto minmax(0,1fr)}
+  .contact-lines .contact-actions{grid-column:1/-1;justify-content:flex-start}
   .msg-row{grid-template-columns:minmax(0,1fr)}
   .tl-tools{top:51px}
   .tl-year{grid-template-columns:minmax(0,1fr);gap:0}
@@ -587,23 +594,23 @@ button.chip.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
       <div class="sec-head"><span>H</span><h3>联系我们</h3><small>Get in touch</small></div>
       <div class="contact-cards">
         <div class="contact-card">
-          <span class="contact-label">Email · 邮箱</span>
-          <span class="contact-value">locrian0314@163.com</span>
-          <p class="contact-note">合作、约稿、活动邀请，邮件里写清楚来意，我会尽快回复。</p>
-          <div class="contact-actions">
-            <a class="primary" href="mailto:locrian0314@163.com">写邮件 ↗</a>
-            <button type="button" data-copy="locrian0314@163.com">复制邮箱</button>
-          </div>
+          <span class="contact-label">Club lead · 社团负责人</span>
+          <span class="contact-name">李上 <small>Locrian</small></span>
+          <ul class="contact-lines">
+            <li><span class="contact-key">邮箱</span><span class="contact-val">locrian0314@163.com</span><span class="contact-actions"><a class="primary" href="mailto:locrian0314@163.com">写邮件 ↗</a><button type="button" data-copy="locrian0314@163.com">复制</button></span></li>
+            <li><span class="contact-key">微信</span><span class="contact-val">locrian0314</span><span class="contact-actions"><button type="button" data-copy="locrian0314">复制</button></span></li>
+          </ul>
         </div>
         <div class="contact-card">
-          <span class="contact-label">WeChat · 微信</span>
-          <span class="contact-value">locrian0314</span>
-          <p class="contact-note">添加时请备注“姓名 + 来意”，方便我通过。</p>
-          <div class="contact-actions">
-            <button class="primary" type="button" data-copy="locrian0314">复制微信号</button>
-          </div>
+          <span class="contact-label">Club lead · 社团负责人</span>
+          <span class="contact-name">周一卓</span>
+          <ul class="contact-lines">
+            <li><span class="contact-key">邮箱</span><span class="contact-val">eggsy.zhou.john.29@gmail.com</span><span class="contact-actions"><a class="primary" href="mailto:eggsy.zhou.john.29@gmail.com">写邮件 ↗</a><button type="button" data-copy="eggsy.zhou.john.29@gmail.com">复制</button></span></li>
+            <li><span class="contact-key">微信</span><span class="contact-val">IKIZULIVE</span><span class="contact-actions"><button type="button" data-copy="IKIZULIVE">复制</button></span></li>
+          </ul>
         </div>
       </div>
+      <p class="contact-tip">添加微信时请备注“姓名 + 来意”；合作、约稿、活动邀请也可以直接发邮件，我们会尽快回复。</p>
       <form class="msg-card" id="msgForm" novalidate>
         <div class="msg-head"><h4>给我们留言</h4><p>合作、约稿、加入社团，留下联系方式，我们会尽快回复你。</p></div>
         <div class="msg-body">
